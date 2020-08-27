@@ -125,13 +125,6 @@ format
 url, cached unit time, score.
 score "0" is star, "1" is no star.
 
-
-
-# FYI (many thanks!)
-
- - A simple Chrome extension that replaces your new tab page with the to-do list of the day along with your to-learn checklist<br>
-https://github.com/PoojaB26/ToDoList-ChromeExtension
-
 # LICENSE
 
 MIT License
