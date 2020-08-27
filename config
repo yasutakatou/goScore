@@ -1,0 +1,16 @@
+[CACHE]
+1 M
+[DNS]
+9.9.9.9
+1.1.1.1
+[SEARCH]
+8
+[SSL]
+DigiCert
+GlobalSign
+Google Trust Services
+GeoTrust
+SECOM Passport
+Sectigo RSA Organization
+Cybertrust
+[HISTORY]
