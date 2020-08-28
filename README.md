@@ -1,4 +1,4 @@
-# goScore
+# goScore (Golang Server)
 
 **Simple URL's security score check tool. (implement by Golang and Chrome Extension.)**.
 
@@ -47,6 +47,10 @@ save binary file, copy to entryed execute path directory.
 delete that binary. del or rm command. (it's simple!)
 
 # usecase
+
+## 0. prepare Cert file
+
+### You prepare cert file beforehand. (use mkcert and such more)
 
 ## 1. prepare server
 
