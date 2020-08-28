@@ -87,7 +87,19 @@ If you click center link, **go to original URL**.<br>
 
 note) **if url cached, server return old result**. So, it's fast.<br>
 
-# config file
+# run options
+
+this options use when run.<br>
+
+|option name|default value|detail|
+|:---|:---|:---|
+-debug|false|debug mode (true is enable)|
+-cert|localhost.pem|ssl_certificate file path (if you don't use https, haven't to use this option)|
+-key|localhost-key.pem|ssl_certificate_key file path (if you don't use https, haven't to use this option)|
+-port|8080|port number|
+-config|config|config file name([detail: config file](https://github.com/yasutakatou/goScore#config))|
+
+# config
 
 This tool have config file, detail is following.
 
