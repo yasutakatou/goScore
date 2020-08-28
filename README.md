@@ -173,7 +173,7 @@ example)
 If you use **Self-signed cert file**, Chrome must trusted this cert.<br>
 You have to access endpoint once by **manualy**.<br>
 
-## browse url to https://xxx.xxx.xxx.xxx:yyyyy/token
+### browse url to https://xxx.xxx.xxx.xxx:yyyyy/token
 
 If alert from Chrome and you continue access, message will not displayed.<br>
 
