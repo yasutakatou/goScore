@@ -52,19 +52,34 @@ delete that binary. del or rm command. (it's simple!)
 
 - run server and **space or enter press** will display **ip addres and port**.
 
+![1](https://github.com/yasutakatou/goScore/blob/pic/1.png)
+
 2. setting on Chrome extension
 
 - input server address to chrome extension.
 
+![2a](https://github.com/yasutakatou/goScore/blob/pic/2a.png)
+
 - in case of success, **it will be added**.
+
+![2b](https://github.com/yasutakatou/goScore/blob/pic/2b.png)
 
 3. Check URL
 
 - in case of checking url, **right click on link, display context menu, send to server**.
 
+![3a](https://github.com/yasutakatou/goScore/blob/pic/3a.png)
+
 - new tab will open, waiting for making score from server.
 
+![3b](https://github.com/yasutakatou/goScore/blob/pic/3b.png)
+
 - **score displayed**.
+
+![3c](https://github.com/yasutakatou/goScore/blob/pic/3c.png)
+
+If you click center link, **go to original URL**.<br>
+**(So, You can check before we open it.)**<br>
 
 note) **if url cached, server return old result**. So, it's fast.<br>
 
