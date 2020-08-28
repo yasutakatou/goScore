@@ -48,13 +48,13 @@ delete that binary. del or rm command. (it's simple!)
 
 # usecase
 
-1. prepare server
+## 1. prepare server
 
 - run server and **space or enter press** will display **ip addres and port**.
 
 ![1](https://github.com/yasutakatou/goScore/blob/pic/1.png)
 
-2. setting on Chrome extension
+## 2. setting on Chrome extension
 
 - input server address to chrome extension.
 
@@ -64,7 +64,7 @@ delete that binary. del or rm command. (it's simple!)
 
 ![2b](https://github.com/yasutakatou/goScore/blob/pic/2b.png)
 
-3. Check URL
+## 3. Check URL
 
 - in case of checking url, **right click on link, display context menu, send to server**.
 
