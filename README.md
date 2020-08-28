@@ -107,54 +107,62 @@ note) default config file name is **"config"**.
 
 ## [CACHE]
 
-cached time.
-this value format is value and unit multiplication.
-unit is
-"d", "D": 12 * 60 * 60
- "h", "H": 60 * 60
-"m", "M": 60
-"s", "S": 1
-example) 
-12 D -> 12days
-30 M -> 30minuts
+### (value)_(unit) ※ _ is single space.
 
-[DNS]
-9.9.9.9
-1.1.1.1
+<br>This value is cacheing time and format is **value and unit multiplication**.
 
-define DNS servers to resolve.
+### units
 
+|define| seconds|
+|:---|:---|
+|"d" or "D"|12 * 60 * 60|
+|"h" or "H"|60 * 60|
+|"m" or  "M"|60|
+|"s" or "S"|1|
 
+example)
+- 12 D -> 12days
+- 30 M -> 30minuts
 
+## [DNS]
 
+define DNS servers to name resolve.<br>
 
-[SEARCH]
-1
+note)
+I recommend that use DNS server (1.1.1.1 or 9.9.9.9.9 etc) for **content filtering purposes**.<br>
 
-define google page rank.
-If your search results rank lower than this value, Return a star to the client.
+example)
+- 9.9.9.9
+- 1.1.1.1
 
+## [SEARCH]
 
-[SSL]
-DigiCert
-GlobalSign
-Google Trust Services
-GeoTrust
-SECOM Passport
-Sectigo RSA Organization
-Cybertrust
+define google page rank check by integer value.<br>
+If your URL search results rank **lower than this value**, Return **a star** to the client.<br>
 
-define you trusted ssl certificate authority.
+## [SSL]
 
+define you trusted ssl certificate authority.<br>
 
+example)
+- DigiCert
+- GlobalSign
+- Google Trust Services
+- GeoTrust
+- SECOM Passport
+- Sectigo RSA Organization
+- Cybertrust
 
-[HISTORY]
-https://www.google.co.jp/ 1598448280 000
+## [HISTORY]
 
-this value is server cache.
-format
-url, cached unit time, score.
-score "0" is star, "1" is no star.
+this value is server cache.<br>
+format is url, cached unix time, score. value is space splited.<br>
+score "0" is star, "1" is no star.<br>
+
+note) this value is wrote by **tool when tool exit**.<br>
+
+example)
+- https://www.google.co.jp/ 1598448280 000
 
 # problem
 
