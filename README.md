@@ -140,6 +140,19 @@ format
 url, cached unit time, score.
 score "0" is star, "1" is no star.
 
+# problem
+
+- When add server to extension, following message displaying!
+
+*YYYY/MM/DD HH:MM:SS http: TLS handshake error from XXX.XXX.XXX.XXX:XXXXX: remote error: tls: unknown certificate*
+
+If you use **Self-signed cert file**, Chrome must trusted this cert.<br>
+You have to access endpoint once by **manualy**.<br>
+
+## browse url to https://xxx.xxx.xxx.xxx:yyyyy/token
+
+If alert from Chrome and you continue access, message will not displayed.<br>
+
 # LICENSE
 
 MIT License
